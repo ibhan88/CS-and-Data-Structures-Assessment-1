@@ -1,0 +1,42 @@
+
+PART 1: DISCUSSION QUESTIONS
+
+---RUNTIME---
+1. The number of crackers the box contains determines the workload of figuring out whether the box of animal crackers contains an elephant.
+
+2. O(1), O(log n), O(n), O(n log n), O(n^2), O(2^n)
+
+
+---STACKS AND QUEUES---
+1. Process of loading and unloading pallets :  STACK
+   Putting bottle caps on bottles of beer down assembly line :  QUEUE
+   Calculating solution to 2 + (7 * 4) - (3 / 2) :  STACK
+
+2. QUEUE
+    - Baking cookies according to the recipe instructions
+    - Recording and playing back the recorded music
+
+3. STACK
+    - Unpacking a packed box after moving into a new place 
+    - Grabbing a clean towel from a folded pile
+
+
+---LINKED LISTS---
+1. Each node is represented by a pair of boxes next to each other, with one box holding the data for the node and one box holding information that references the next node in the linked list. In the example, "Apple", "Berry", and "Cherry" are the data for each node. The "Apple" node is the head, whereas the "Cherry" node is the tail. 
+
+2. A singly-linked list only allows you to traverse the linked list in one direction. A doubly-linked list, on the other hand, allows you to traverse the linked list in both directions, so each node in a doubly-linked list holds information that references the previous node and another reference that holds information on the next node.
+
+3. If you keep track of the tail of a linked list as an attribute, you do not have to traverse the whole linked list in order to find the last node (whose next reference is None). Rather, by keeping track of the tail, you can immediately go to the tail node, then append a new node after it.
+
+
+---TREES---
+1. In a Breadth First Search, the nodes will be visited in the following order: food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burrito.
+
+2. In a Depth First Search, the nodes will be visited in the following order: food, Mexican, enchiladas, tacos, burrito, Indian, saag, tikka masala, Italian, pizza, Sicilian, New York-style, Chicago-style.
+
+3. A binary search tree is different from other trees mainly in two ways. First, each node has two references (or paths) all the time. If they are leaf nodes, they will point to two Nones. Secondly, a binary search tree is based on sorted data. As such, for each relationship in the tree, the order will be visually noticeable in that the left child node comes before the parent node, which comes before the right child node in the sorted data. Thus, if the data contained the numbers 1, 2, and 3, the left child node would be 1, the parent node would be 2, and the right child node would be 3.
+
+
+
+
+
